@@ -1,22 +1,22 @@
 # Cascading Rainbow-- A custom Powerline segment
 
-![woot](1.png)
+![woot](examples/1.png)
 
 ### built by Mel Sawyer
 
 [Powerline](https://powerline.readthedocs.io/en/master/) is a plugin to produce statusline segments. This is a custom segment to display the **current working directory** in a satisfying gradient of rainbow colors. All of the existing functionality of the `cwd` segment still remains (shortening directory names, adding a max depth, etc)-- this customization merely adds gradient coloring on top. I built this segment for use in a bash prompt, but it can also be modified to work in vim, zsh, tmux, etc. 
 
 ## Examples
-![woot](2.png)  
+![woot](examples/2.png)  
 Here's an example with `dir_shorten_length`=1. All directories above the current directory are shortened to a length of 1, making the prompt slightly more wieldy.
 
-![woot](3.png)  
+![woot](examples/3.png)  
 This example uses `dir_limit_depth`=3, meaning that the prompt only displays 3 directories and an ellipse. 
 
-![woot](5.png)  
+![woot](examples/5.png)  
 Another example with `dir_shorten_length`=1, showing how the current directory is fully expanded and then collapses into 1 character as the user moves down the file tree. 
 
-![woot](4.png). 
+![woot](examples/4.png). 
 This one just looks pretty and is simultaneously horribly impractical. 
 
 ## Installation
